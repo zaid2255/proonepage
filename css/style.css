@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+		padding: 0px;
+		margin: 0px
+	}
+	.bgtop
+	{
+		background-color: #364c6e;
+		
+	}
+	.bgtop
+	{
+		padding-top: 4%;
+		padding-bottom: 4%
+	}
+	
+	.bgtop,h1,h3
+	{
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		color: aliceblue;
+		font-weight: bold;
+		
+	}
+	.toph1
+	{
+		font-size: 40px;
+		
+	}
+	.center
+	{
+		text-align: center;
+	}
+	
+	.middle,.middleh1
+	{
+		font-size: 40px;
+		color: #321863;
+		font-weight: bold
+	}
+	ol 
+	{
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	}
+	.middle p
+	{
+		color: #699fb9;
+		font-size: 20px;
+		padding-top: 10px
+		
+	}
+	li
+	{
+		padding-top: 15px
+	}
+	.left
+	{
+		width: 50%;
+		float: left;
+		
+	}
+	.right
+	{
+		width: 50%;
+		float: left
+		
+	}
+	.para
+	{
+		font-size: 19px;
+		font-family:Gotham, Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+		font-weight: bold;
+		color: aliceblue;
+		padding-left: 10%;
+		padding-right: 10%
+	}
+	.btn
+	{
+		margin-top: 7%;
+		padding: 10px;
+		font-size: 18px;
+		font-weight: 500;
+		color: aliceblue;
+		background: #699fb9;
+		border: none;
+	}
+	.login
+	{
+		background: #fff;
+    border: 1px solid #2d23f7;
+    border-radius: 5px;
+    padding: 5px 25px;
+    float: right;
+    cursor: pointer;
+    transition: .292s ease 0s;
+    color: #2d23f7;
+    font-size: 13px;
+		margin-top: 3%;
+		margin-right: 10%
+	}
+	.login:hover
+	{
+		background-color: #2d23f7;
+		color: aliceblue
+	}
+	
+	input[type=text], select {
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+	input[type=email], select {
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  width: 81%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+	input[type=password], select {
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  width: 81%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/*
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+*/
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+	.form
+	{
+		width: 50%;
+		float: left;
+		padding: 4%;
+		
+		
+			
+	}
+	.benefit
+	{
+		width: 27%;
+		float: left;
+		margin-top: 6%;
+		border: 1px solid #ccc;
+		padding: 25px;
+		border-radius: 5px;
+		box-shadow: 3px 3px 5px 2px rgba(197,205,220,0.25);
+	 
+		
+	}
+	.join
+	{
+		
+    background: linear-gradient(to right, #554bf9 0%, #814bf9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#554bf9', endColorstr='#814bf9',GradientType=1 );
+    color: #fff;
+    border: none;
+    width: 81%;
+    font-size: 1em;
+    line-height: 1.6;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 43px;
+	}
+	label
+	{
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-size: 13px;
+	}
+	
+	.msg a
+	{
+		text-decoration: none;
+		color: #007bff;
+	}
+	
+		.msg a:hover
+	{
+		border-bottom: 1px solid #006BDD
+	}
+	
+	.fa-check
+	{
+		background: #00dbb0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 100;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    vertical-align: text-top;
+    line-height: 17px;
+    border-radius: 50%;
+    margin-right: 6px;
+		
+	}
+
+	
+	
+	
