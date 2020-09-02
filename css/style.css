@@ -93,7 +93,7 @@
     padding: 5px 25px;
     float: right;
     cursor: pointer;
-    transition: .292s ease 0s;
+/*    transition: .292s ease 0s;*/
     color: #2d23f7;
     font-size: 13px;
 		margin-top: 3%;
@@ -220,6 +220,148 @@ input[type=submit]:hover {
     margin-right: 6px;
 		
 	}
+.parallax {
+  /* The image used */
+  background-image: url("img/star.png");
+width: 100%;
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+	position:;
+	z-index: -1
+	
+	
+	
+}
+	.parallaxes {
+  /* The image used */
+  background-image: url("img/bg1.jpg");
+
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	position:;
+	z-index: -1
+	
+	
+	
+}
+	@media (max-width: 768px)
+	{
+		.parallax
+		{
+			min-height: 900px;
+			
+		}
+		.toph1
+	{
+		font-size: 25px;
+		
+	}
+		h2
+		{
+			font-size: 15px
+		}
+		.middleh1
+		{
+			font-size: 25px;
+		}
+		li
+		{
+			font-size: 25px;
+		}
+		p
+		{
+			font-size: 15px !important;
+		}
+		.bgtop
+		{
+			font-size: 25px;
+		}
+		.left
+		{
+			font-size: 15px;
+		}
+		.bgtopsize
+		{
+			font-size: 20px;
+		}
+		.parasize
+		{
+/*			font-size: 13px;*/
+		}
+		.btn
+		{
+			margin-top: 20%
+		}
+		.sizeh
+		{
+			font-size: 30px !important
+		}
+		.para5
+		{
+			font-size: 20px !important
+		}
+		.parallaxes
+		{
+			min-height: 470px
+		}
+		.parallexs
+		{
+			min-height: 470px
+		}
+		.signup
+		{
+			font-size: 35px !important
+		}
+		.login
+		{
+			margin-top: 9%
+		}
+		#fname,#lname,#email,#pswd,#cpswd,#address,#state,#city,#fblink,#intstalink
+		{
+			width: 100%
+		}
+		.fcolor
+		{
+			background-color: #fff;
+			height: 960px!important
+		}
+		.form
+		{
+			width: 40%
+		}
+		.benefit
+		{
+			font-size: 13px !important;
+			padding: 5px;
+			width: 43%			
+		}
+		.fa-check
+		{
+			font-size: 5px;
+			width: 14px;
+   			 height: 14px;
+				
+		}
+		.join
+		{
+			margin-top: -3% !important
+		}
+		
+	
+}
 
 	
 	
