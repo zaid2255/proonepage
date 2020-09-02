@@ -222,7 +222,7 @@ input[type=submit]:hover {
 	}
 .parallax {
   /* The image used */
-  background-image: url("img/star.png");
+  background-image: url("../img/star.png");
 width: 100%;
   /* Set a specific height */
   min-height: 500px; 
@@ -241,7 +241,7 @@ width: 100%;
 }
 	.parallaxes {
   /* The image used */
-  background-image: url("img/bg1.jpg");
+  background-image: url("../img/bg1.jpg");
 
   /* Set a specific height */
   min-height: 400px; 
